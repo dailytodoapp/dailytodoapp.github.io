@@ -1,111 +1,116 @@
-<div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q">How to share lists with Daily?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Click on a list and use the share button from the appbar. This will open a dialog that lets you send the link of your list to anyone. Keep in mind that the person you're sharing the list with must have Daily installed as well.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+    <style>
+        .schema-faq-code {
+            border: 1px solid #dedee0;
+            border-radius: 10px;
+            background-color: #fefbf9;
+            overflow: hidden;
+        }
+
+        .schema-faq-code .faq-q {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0;
+            padding: 12px 56px 12px 12px;
+            line-height: 1.4;
+            cursor: pointer;
+            position: relative;
+            border-bottom: 1px solid #dedee0;
+        }
+
+        .faq-q:after {
+            content: "+";
+            position: absolute;
+            top: 50%;
+            right: 0;
+            width: 56px;
+            text-align: center;
+            transform: translateY(-50%);
+            font-weight: bold;
+            color: #000;
+            font-size: 20px;
+        }
+
+        .faq-q.faq-q-open:after {
+            content: "-";
+        }
+
+        .faq-a {
+            margin: 0;
+            padding: 12px;
+            background-color: #fff;
+            font-size: 14px;
+            line-height: 1.4;
+            border-bottom: 1px solid #dedee0;
+            display: none;
+        }
+
+        .schema-faq-code .faq-question:last-child .faq-a {
+            border-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
+        <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+            <h3 itemprop="name" class="faq-q">How to share lists with Daily?</h3>
+            <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text" class="faq-a">Click on a list and use the share button from the appbar. This will open a dialog that lets you send the link of your list to anyone. Keep in mind that the person you're sharing the list with must have Daily installed as well.</p>
+            </div>
+        </div>
+
+        <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+            <h3 itemprop="name" class="faq-q">How does list sharing work?</h3>
+            <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text" class="faq-a">No matter how many people you share your list with, any changes will instantly appear on all devices simultaneously.</p>
+            </div>
+        </div>
+
+        <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+            <h3 itemprop="name" class="faq-q">Does Daily work offline?</h3>
+            <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text" class="faq-a">Yes! You don't need an internet connection to use Daily, lists and items can be added while you're offline without problems.</p>
+            </div>
+        </div>
+
+        <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+            <h3 itemprop="name" class="faq-q">Can I change the language for voice input?</h3>
+            <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text" class="faq-a">Of course! Open the main menu and go to the settings screen. You'll see an option to switch the language for voice input.</p>
+            </div>
+        </div>
+
+        <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+            <h3 itemprop="name" class="faq-q">How to enable dark mode?</h3>
+            <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text" class="faq-a">Check the settings page. You can set the app theme to light, dark, or system default.</p>
+            </div>
+        </div>
+
+        <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+            <h3 itemprop="name" class="faq-q">How can I get rid of ads?</h3>
+            <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text" class="faq-a">Daily lets you make a one-time payment to remove ads forever! Check the "remove ads" option in the main menu.</p>
+            </div>
         </div>
     </div>
 
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q">How does list sharing work?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">No matter how many people you share your list with, any changes will instantly appear on all devices simultaneously. </p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q">Does Daily work offline?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Yes! You don't need an internet connection to use Daily, lists and items can be added while you're offline without problems.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q">Can I change the language for voice input?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Of course! Open the main menu and go to the settings screen. You'll see an option to switch the language for voice input.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q">How to enable dark mode?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Check the settings page. You can set the app theme to light, dark or system default.</p>
-        </div>
-    </div>
-
-    <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
-        <h3 itemprop="name" class="faq-q">How can I get rid of ads?</h3>
-        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-             <p itemprop="text" class="faq-a">Daily lets you make a one-time payment to remove ads forever! Check the "remove ads" option in the main menu.</p>
-        </div>
-    </div>
-          </div>
-
-<style>
-    .schema-faq-code {
-border: 1px solid #dedee0;
-border-radius: 10px;
-background-color:#fefbf9;
-  overflow:hidden;
-}
-.schema-faq-code .faq-q {
-font-size: 14px;
-font-weight: bold;
-margin: 0;
-padding: 12px 56px 12px 12px;
-line-height: 1.4;
-cursor: pointer;
-position: relative;
-border-bottom: 1px solid #dedee0;
--webkit-touch-callout: none; 
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none; 
-}
-.faq-q:after {
-    content: "+";
-    position: absolute;
-    top: 50%;
-    right: 0;
-    width: 56px;
-    text-align: center;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-weight: bold;
-    color: #000;
-    font-size: 20px;
-}
-.faq-q.faq-q-open:after {
-    content: "-";	
-}
-.faq-a {
-margin: 0;
-padding: 12px;
-background-color:#fff;
-font-size: 14px;
-line-height: 1.4;
-  border-bottom: 1px solid #dedee0;
-  display: none;
-}
-.schema-faq-code .faq-question:last-child .faq-a {
-  border-bottom:0px;
-    }
-</style>
-
-            <script>
-                jQuery('.faq-q').click(function(){
-	if (jQuery(this).siblings().find('.faq-a').is(':visible')) {
-		jQuery(this).removeClass('faq-q-open');
-		jQuery(this).siblings().find('.faq-a').removeClass('faq-a-open').slideUp();
-} 
-else {
-	jQuery(this).addClass('faq-q-open');
-	jQuery(this).siblings().find('.faq-a').addClass('faq-a-open').slideDown();
-	}
-})
-            </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        jQuery('.faq-q').click(function(){
+            if (jQuery(this).siblings().find('.faq-a').is(':visible')) {
+                jQuery(this).removeClass('faq-q-open');
+                jQuery(this).siblings().find('.faq-a').removeClass('faq-a-open').slideUp();
+            } else {
+                jQuery(this).addClass('faq-q-open');
+                jQuery(this).siblings().find('.faq-a').addClass('faq-a-open').slideDown();
+            }
+        });
+    </script>
+</body>
+</html>
