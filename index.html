@@ -1,0 +1,569 @@
+<!DOCTYPE html><html lang="en"><head>
+        <title>Daily App</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style type="text/css">
+            .nav {
+                padding-left: 0;
+            }
+            .nav li {
+                display: inline;
+                list-style-type: none;
+                padding-right: 20px;
+            }
+
+            .content {
+                float: left;
+                width: 80%;
+            }
+            .sidebar {
+                float: left;
+                width: 20%;
+            }
+        </style>
+
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="An awesome application to create lists and share them with your friends and family!">
+        <meta name="keywords" content="android, app, to do list app, to do, shopping list app, to do list android, grocery list">
+        <!-- Google tag (gtag.js) -->
+<!--        <meta name="google-site-verification" content="X7w2sRyi8C4Mlw8N0yPOmJziMkNNyT74Z4_nc9xnGlM">-->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2QPTBJ4KF5"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2QPTBJ4KF5');
+        </script>
+
+        <!-- Hotjar Tracking Code for https://cmshero.pythonanywhere.com/ -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:3602703,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script><script async src="js/hotjar-3602703.js"></script>
+
+
+        <link rel="canonical" href="https://cmshero.pythonanywhere.com">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <!-- Favicon -->
+
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+        <!-- Slick slider -->
+        <link href="css/slick.css" rel="stylesheet">
+        <!-- Theme color -->
+        <link id="switcher" href="css/dark-blue-theme.css" rel="stylesheet">
+        <!-- Main Style -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/portfolio.css" rel="stylesheet">
+
+        <!-- Fonts -->
+    </head>
+    <body>
+
+        <div class>
+            <ul class="nav">
+
+            </ul>
+
+            <style>
+
+
+
+
+
+
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-transparent portfolio-navbar ">
+    <div class="container">
+       <!-- Navbar content -->
+       <a class="navbar-brand text-white" href="#">Daily</a>
+<!--       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--       <span class="navbar-toggler-icon text-white"></span>-->
+<!--       </button>-->
+       <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+
+          </ul>
+       </div>
+    </div>
+ </nav>
+
+
+
+
+
+
+    <header id="mu-header" role="banner">
+      <div class="mu-header-overlay">
+        <div class="container">
+          <div class="mu-header-area mt-3">
+            <!-- Start Logo -->
+            <div class="mu-logo-area">
+              <!-- text based logo -->
+
+              <!-- image based logo -->
+              <!-- <a class="mu-logo" href="#"><img src="/static/images/logo.png%20" alt="logo img"></a> -->
+
+                
+            </div>
+            <!-- End Logo -->
+            <!-- Start header featured area -->
+            <div class="mu-header-featured-area">
+              <div class="mu-header-featured-img">
+
+
+                  <div class="get-to-know__img">
+                    <div class="position-relative">
+                      <img alt="Placeholder 450X500" class="img-fluid" src="fonts/placeholder-550-800.svg" width="550" height="800">
+                      <img loading="lazy" class="img-fluid project_img object-contain " src="images/iphone_4mftEsx.webp" alt>
+                    </div>
+                  </div>
+
+              </div>
+              <div class="mu-header-featured-content centered-content">
+                <h1>
+                  Daily is here!
+                </h1>
+                <p>User-friendly app for creating to-do and shopping lists with a clean and modern design, without unnecessary add-ons. </p>
+                <div class="mu-app-download-area">
+                  <h4>Download for Free</h4>
+<!--                  <a class="mu-apple-btn" target="__blank" href="#">-->
+<!--                    <i class="fa fa-apple"></i>-->
+<!--                    <span>apple store</span>-->
+<!--                  </a>-->
+                  <a class="mu-google-btn" target="__blank" href="https://play.google.com/store/apps/details?id=com.app.dailytodo">
+                    <i class="fa fa-android"></i>
+                    <span>google play</span>
+                  </a>
+                  <!-- <a class="mu-windows-btn" href="#"><i class="fa fa-windows"></i><span>windows store</span></a> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- End header featured area -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+
+    <style>
+
+
+    </style>
+    <!-- Start Feature -->
+    <section id="mu-feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mu-feature-area">
+                        <div class="mu-title-area">
+                            <h2 class="mu-title">APP FEATURES</h2>
+                            <span class="mu-title-dot"></span>
+                            <p>Create unlimited to-do/shopping lists and use voice input to add items. Share lists with your family and friends and see changes LIVE!</p>
+                        </div>
+                        <!-- Start Feature Content -->
+                        <div class="mu-feature-content">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="mu-feature-content-left">
+
+                                            <div class="responsive-image">
+                                                <div class="position-relative">
+                                                    <img alt="Placeholder 500X550" class="img-fluid lazyloaded" src="fonts/placeholder-500-550.svg" width="500" height="550">
+                                                    <img class="img-fluid project_img px-5" loading="lazy" style="height:a8uto;" src="images/iphone-group_Tf0nMsG.webp" alt="app features">
+                                                </div>
+                                            </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="mu-feature-content-right">
+
+                                            <!-- Start single feature item -->
+                                            <div class="feature-block d-flex align-items-top mb-4">
+                                                <div class="me-3">
+                                                    <button class="btn mu-feature-btn" name="feature icon" type="button">
+                                                        <i class="fa  fa-hourglass-half " aria-hidden="true"></i>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <h3 class="media-heading mb-0">Effortless List Creation</h3>
+                                                    <div>Seamlessly create unlimited lists to cater to your daily tasks, grocery needs, and more.</div>
+                                                </div>
+                                            </div>
+                                            <!-- End single feature item -->
+
+                                            <!-- Start single feature item -->
+                                            <div class="feature-block d-flex align-items-top mb-4">
+                                                <div class="me-3">
+                                                    <button class="btn mu-feature-btn" name="feature icon" type="button">
+                                                        <i class="fa  fa-microphone " aria-hidden="true"></i>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <h3 class="media-heading mb-0">Voice-Powered Input</h3>
+                                                    <div>Say goodbye to typing! Easily add items to your lists using the power of your voice, ensuring speedy and accurate data entry.</div>
+                                                </div>
+                                            </div>
+                                            <!-- End single feature item -->
+
+                                            <!-- Start single feature item -->
+                                            <div class="feature-block d-flex align-items-top mb-4">
+                                                <div class="me-3">
+                                                    <button class="btn mu-feature-btn" name="feature icon" type="button">
+                                                        <i class="fa  fa-share" aria-hidden="true"></i>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <h3 class="media-heading mb-0">Real-time Sharing</h3>
+                                                    <div>Collaborate seamlessly with friends, family, or colleagues. Experience the power of live synchronization, where updates are instant and everyone stays in the loop.</div>
+                                                </div>
+                                            </div>
+                                            <!-- End single feature item -->
+
+                                            <!-- Start single feature item -->
+                                            <div class="feature-block d-flex align-items-top mb-4">
+                                                <div class="me-3">
+                                                    <button class="btn mu-feature-btn" name="feature icon" type="button">
+                                                        <i class="fa  fa-wifi " aria-hidden="true"></i>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <h3 class="media-heading mb-0">Intelligent Offline Saving</h3>
+                                                    <div> Never let connectivity interrupt your productivity. Daily's cutting-edge offline saving ensures your changes are captured locally and automatically synced when you're back online.</div>
+                                                </div>
+                                            </div>
+                                            <!-- End single feature item -->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Feature Content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature -->
+    <script>/* JavaScript code (if required) can remain the same */</script>
+
+
+
+
+
+        <!-- Start Video -->
+        <section id="mu-video">
+            <div class="mu-video-overlay" style>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mu-video-area">
+                                 <h2>Video showcase</h2>
+                                <br>
+                                <h6>Using Daily is super simple - take a look!</h6>
+                                <br>
+                                <br>
+                                <iframe width="315" height="560"
+                                    src="https://www.youtube.com/embed/abpnLHP7PS8"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                                    gyroscope; picture-in-picture;
+                                    web-share"
+                                    allowfullscreen>
+
+                                </iframe>
+<!--                                <a class="mu-video-play-btn" name="Video Play Button" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Video content -->
+<!--            <div class="mu-video-content">-->
+<!--                <div class="mu-video-iframe-area">-->
+<!--                    <a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>-->
+<!--                    <iframe class="mu-video-iframe app-showcase-video" width="854" height="480" src frameborder="0" allowfullscreen></iframe>-->
+
+<!--                </div>-->
+<!--            </div>-->
+            <!-- End Video content -->
+        </section>
+        <!-- End Video -->
+
+<!--        <script>-->
+<!--            yt_link = 'https://www.youtube.com/embed/abpnLHP7PS8'.trim()-->
+
+<!--            setTimeout(() => {-->
+<!--		        $('.app-showcase-video').attr('src', yt_link)-->
+<!--              }, 1000);-->
+
+
+<!--        </script>-->
+
+
+
+
+
+    <!-- Start Apps Screenshot -->
+    <section id="mu-apps-screenshot" style="background-color:None">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-apps-screenshot-area">
+              <div class="mu-title-area">
+                <h2 class="mu-title">Screenshots</h2>
+                <span class="mu-title-dot"></span>
+              </div>
+              <!-- Start Apps Screenshot Content -->
+              <div class="mu-apps-screenshot-content">
+                <div class="mu-apps-screenshot-slider">
+
+
+                      <div class="mu-single-screeshot">
+                        <div class="get-to-know__img">
+                          <div class="position-relative">
+                            <img alt="Placeholder 500X550" class="img-fluid" src="fonts/placeholder-500-550.svg" width="500" height="550">
+                            <img class="img-fluid project_img object-contain" loading="lazy" src="images/01_RSfD0r3.webp" alt="app screenshot 1">
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                      <div class="mu-single-screeshot">
+                        <div class="get-to-know__img">
+                          <div class="position-relative">
+                            <img alt="Placeholder 500X550" class="img-fluid" src="fonts/placeholder-500-550.svg" width="500" height="550">
+                            <img class="img-fluid project_img object-contain" loading="lazy" src="images/02_cCcbBLZ.webp" alt="app screenshot 2">
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                      <div class="mu-single-screeshot">
+                        <div class="get-to-know__img">
+                          <div class="position-relative">
+                            <img alt="Placeholder 500X550" class="img-fluid" src="fonts/placeholder-500-550.svg" width="500" height="550">
+                            <img class="img-fluid project_img object-contain" loading="lazy" src="images/03_83ZY0Rg.webp" alt="app screenshot 3">
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                      <div class="mu-single-screeshot">
+                        <div class="get-to-know__img">
+                          <div class="position-relative">
+                            <img alt="Placeholder 500X550" class="img-fluid" src="fonts/placeholder-500-550.svg" width="500" height="550">
+                            <img class="img-fluid project_img object-contain" loading="lazy" src="images/04.webp" alt="app screenshot 4">
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+
+                </div>
+              </div>
+              <!-- End Apps Screenshot Content -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Apps Screenshot -->
+
+
+
+<!-- Add the following script tags at the bottom of your HTML file, after loading jQuery and Slick -->
+
+
+
+        <!-- Start Download -->
+        <section id="mu-download" style>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mu-download-area">
+                            <div class="mu-title-area">
+                                <h2 class="mu-title">Download Now!</h2>
+                                <span class="mu-title-dot"></span>
+                                <p>Download Daily to make your life easier. It's completely FREE!</p>
+                            </div>
+                            <div class="mu-download-content">
+
+
+                                    <a class="mu-google-btn" target="_blank" href="https://play.google.com/store/apps/details?id=com.app.dailytodo"><i class="fa fa-android"></i><span>google play</span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Download -->
+
+
+
+
+
+
+  <style>
+
+
+
+  </style>
+
+    <section id="mu-faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-faq-area">
+              <div class="mu-title-area">
+                <h2 class="mu-title">Faqs</h2>
+                <span class="mu-title-dot"></span>
+              </div>
+              <div class="mu-faq-content">
+                <div class="accordion" id="accordionExample">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading4">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">Is Daily completely free?</button>
+                      </h2>
+                      <div id="collapse4" class="accordion-collapse collapse show" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Yes! Daily does not have any paid features - all of them are free to use without limits.</div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Does Daily work offline?</button>
+                      </h2>
+                      <div id="collapse1" class="accordion-collapse collapse " aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Of course! You don't need an internet connection to use Daily, lists and items can be added while you're offline without problems.</div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">How to share lists with Daily?</button>
+                      </h2>
+                      <div id="collapse2" class="accordion-collapse collapse " aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Click on any list and use the share button from the appbar. This will open a dialog that lets you send the link of your list.</div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">How does list sharing work?</button>
+                      </h2>
+                      <div id="collapse3" class="accordion-collapse collapse " aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">No matter how many people you share your list with, changes will instantly appear across all devices simultaneously.</div>
+                      </div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+  <style>
+  .footer-widget, .footer-widget h4.name, .footer-widget i, .footer-widget a, .mu-footer-area p{
+    color:#FFFFFF;
+    font-weight:500;
+  }
+
+  .footer-widget, .footer-widget p,  .footer-widget i, .footer-widget a, .mu-footer-area p{
+    font-size:20px;
+    font-weight:500;
+
+  }
+
+  .footer-widget h4.name{
+    font-size:px;
+    font-weight:bold;
+
+  }
+
+
+
+
+
+  </style>
+
+
+            <footer style="background-color:None">
+    <div class="container">
+      <div class="row mt-2 mt-md-0">
+        <div class="col-md-4">
+          <div class="footer-widget mt-0 mt-md-4">
+
+              <h4 class="name">Follow Daily</h4>
+            <div class="social-icons">
+
+
+
+                    <a href="https://www.instagram.com/dailytodoapp"><i class="fa fa-instagram"></i></a>
+                    <a href="https://youtube.com/@decosoft6707"><i class="fa fa-youtube"></i></a>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+          <div class="col-md-4 mt-4">
+            <div class="footer-widget">
+              <h4>Contact</h4>
+              <div>decosoftapps@gmail.com</div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+        </div>
+
+
+        <!-- jQuery library -->
+        <script src="js/jquery-3.7.0.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+        <!-- Slick slider -->
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <!-- Custom js -->
+        <script type="text/javascript" src="js/custom.js"></script>
+
+
+</body></html>
